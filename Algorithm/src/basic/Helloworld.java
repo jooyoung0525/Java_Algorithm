@@ -16,7 +16,12 @@ package basic;
  */
 
 public class Helloworld {
+	
+	
+	final static double PI = 3.141592;
+	
 	public static void main(String[] args) {
-		System.out.println("Hello World");
+		int r = 30;
+		System.out.println(r*r*PI);
 	}
 }
